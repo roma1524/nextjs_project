@@ -1,0 +1,9 @@
+.links {
+  display: flex;
+  column-gap: 20px;
+
+  &:hover {
+    color: rgba(31, 163, 234, 0.94);
+    cursor: pointer;
+  }
+}
