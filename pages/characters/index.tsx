@@ -2,21 +2,22 @@ import React from 'react';
 import useCharacters from "@/assets/hooks/useCharacters";
 import {HeadMeta} from "@/components/HeadMeta/HeadMeta";
 import CharacterCard from "@/components/CharacterCard/CharacterCard";
+import {getLayout} from "@/components/Layout/Layout";
 
 
-export default function Characters() {
+function Characters() {
 
     const characters = useCharacters()
 
     return (
         <>
             <HeadMeta title="Characters" />
-            <main /*className={`${styles.main} ${inter.className}`}*/>
                 {characters && characters.map(ch => (
                     <CharacterCard character={ch} key={ch.id} />
                 ))}
-            </main>
         </>
     );
 };
 
+Characters.getLayout = getLayout
+export default Characters
