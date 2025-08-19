@@ -4,8 +4,8 @@ import styles from "./NavBar.module.scss";
 export default function NavBar() {
     return (
         <div className={styles.links}>
-            <Link href={"/"}>Main</Link>
-            <Link href={"/characters"}>Characters</Link>
+            <Link href={"/"} className={styles.link}>Main</Link>
+            <Link href={"/characters"} className={styles.link}>Characters</Link>
         </div>
     );
 }
