@@ -1,9 +1,11 @@
 .links {
   display: flex;
   column-gap: 20px;
+}
 
+.link {
   &:hover {
-    color: rgba(31, 163, 234, 0.94);
+    color: rgb(21, 244, 225);
     cursor: pointer;
   }
 }
