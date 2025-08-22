@@ -1,5 +1,6 @@
 import React from 'react';
 import {getLayout} from "@/components/Layout/Layout";
+
 import Link from "next/link";
 
 const NotFound = () => {
@@ -8,8 +9,6 @@ const NotFound = () => {
         <div>404 Not Found</div>
         <Link href={'/'}/>
         </>
-    );
-}
 
 NotFound.getLayout = getLayout
 export default NotFound
