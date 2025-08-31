@@ -9,6 +9,8 @@ const NotFound = () => {
         <div>404 Not Found</div>
         <Link href={'/'}/>
         </>
+    )
+}
 
 NotFound.getLayout = getLayout
 export default NotFound
