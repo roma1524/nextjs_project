@@ -8,5 +8,6 @@ const NotFound = () => {
         </>
     )
 }
+
 NotFound.getLayout = getLayout
 export default NotFound
