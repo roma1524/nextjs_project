@@ -6,9 +6,10 @@ import Link from "next/link";
 const NotFound = () => {
     return (
         <>
-        <div>404 Not Found</div>
-        <Link href={'/'}/>
+            <div>404 Not Found</div>
+            <Link href={'/'}/>
         </>
-
+    )
+}
 NotFound.getLayout = getLayout
 export default NotFound
